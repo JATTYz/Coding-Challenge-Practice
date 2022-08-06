@@ -1,12 +1,12 @@
 class RunCodeee {
 
-  public static void main(String[] args) {
-     String[] input = {"flower", "flow", "floight"};
-     String answer = longestCommonPrefix(input);
+  // public static void main(String[] args) {
+  //    String[] input = {"flower", "flow", "floight"};
+  //    String answer = longestCommonPrefix(input);
      
-     System.out.println(answer);
+  //    System.out.println(answer);
 
-  }  
+  // }  
 
   public static String longestCommonPrefix(String[] strs){
     String prefix = strs[0];
