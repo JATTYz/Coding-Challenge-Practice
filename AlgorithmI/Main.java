@@ -2,14 +2,15 @@ package AlgorithmI;
 
 import java.util.Arrays;
 
+import javax.naming.NameAlreadyBoundException;
+
 public class Main {
    public static void main(String[] args) {
-     int[] nums = {1,2,3,4,5,6,7};
-     RotateArray test = new RotateArray();
-      test.rotate(nums, 3);
-     for(int i : nums){
-        System.out.print(i);
-     } 
+     int[] nums = {0,1,0,3,12};
+      
+    MoveZone test = new MoveZone();
+    test.moveZeros(nums); 
+      System.out.println(Arrays.toString(nums));
 
    } 
 
