@@ -2,8 +2,6 @@ package AlgorithmI;
 
 import java.util.Arrays;
 
-import javax.naming.NameAlreadyBoundException;
-import javax.sound.sampled.SourceDataLine;
 
 public class Main {
    public static void main(String[] args) {
