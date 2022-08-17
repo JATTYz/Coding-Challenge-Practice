@@ -6,10 +6,10 @@ public class Main {
    
     public static void main(String[] args) {
 
-        int nums[] = {2,14,18,22,22
-        };
+        int nums[] = {-2,1,-3,4,-1,2,1,-5,4};
 
-    ContainDuplicate test = new ContainDuplicate();
-        System.out.println(test.bestSolution(nums));
+        MaximumSubarray test = new MaximumSubarray();
+
+        System.out.println(test.maxSubArray(nums));
     }
 }
