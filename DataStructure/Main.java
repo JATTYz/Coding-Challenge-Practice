@@ -1,15 +1,16 @@
 package DataStructure;
 
-import javax.sound.sampled.SourceDataLine;
+import java.util.Arrays;
 
 public class Main {
    
     public static void main(String[] args) {
 
-        int nums[] = {-2,1,-3,4,-1,2,1,-5,4};
+        int[] nums = {1,2,3,0,0,0};
+        int[] nums2 = {2,5,6};
 
-        MaximumSubarray test = new MaximumSubarray();
-
-        System.out.println(test.maxSubArray(nums));
+      MergeSortedArray test = new MergeSortedArray();
+      
+    test.merge(nums, 3, nums2, 3); 
     }
 }
