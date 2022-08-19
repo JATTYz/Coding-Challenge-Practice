@@ -9,8 +9,8 @@ public class Main {
         int[] nums = {7,1,5,3,6,4};
         int[] nums2 = {2,2};
 
-       BeySellStrock test = new BeySellStrock();
-       System.out.println(test.solution(nums));
+       Pascal test = new Pascal();
+       test.generate(5);
        
     }
 }
