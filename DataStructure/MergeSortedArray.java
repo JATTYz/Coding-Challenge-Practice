@@ -1,6 +1,5 @@
 package DataStructure;
 
-import java.util.Arrays;
 
 public class MergeSortedArray {
 
