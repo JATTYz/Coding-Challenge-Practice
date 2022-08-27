@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class Ransom {
 	
 	public boolean canConstruct(String ransomNote, String magazine){
@@ -9,7 +11,7 @@ class Ransom {
 			map.put(c,map.getOrDefault(c,0)+1);
 		}
 		
-		for(char c : ransomNote.toCharArray){
+		for(char c : ransomNote.toCharArray()){
 			if(map.containsKey(c)){
 
 				map.put(c, map.get(c) - 1); 
