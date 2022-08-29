@@ -2,13 +2,15 @@ package AlgorithmI;
 
 import java.util.Arrays;
 
+import AlgorithmI.SlidingWindow.Permutation;
+
 
 public class Main {
    public static void main(String[] args) {
      
-      Stair test = new Stair();
-      int a = test.solution(5);
-      System.out.println(a);
+     Permutation a = new Permutation();
+
+     System.out.println(a.checkInclustion("ab", "abc")); 
    }
 
 }
