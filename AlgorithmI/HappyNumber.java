@@ -6,7 +6,6 @@ import java.util.HashSet;
 public class HappyNumber {
    
     public boolean solution(int n){
-
         HashSet<Integer> set = new HashSet<>();
 
         while(n > 1){
@@ -27,17 +26,4 @@ public class HappyNumber {
 
     }
 
-    public int a(int[] nums, int k){
-
-        Arrays.sort(nums);
-        int high = 0;
-
-        for(int i = 0; i < nums.length; i++){
-            
-        }
-
-
-
-        return 0;
-    }
 }
