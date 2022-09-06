@@ -7,14 +7,11 @@ import AlgorithmI.SlidingWindow.Permutation;
 
 public class Main {
    public static void main(String[] args) {
-   
-    plusOne test =new plusOne();
-    
-    int[] a = {1,2,3,9};
-    test.solution(a); 
-    for(int i : a){
-      System.out.println(i);
-    }
+    WordPattern test = new WordPattern();
+
+
+    System.out.println(test.solution("aaaa", "dog cat cat fish")); 
+    // test.solution("abba", "dog cat cat dog"); 
    }
 
 }
