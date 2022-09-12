@@ -5,6 +5,17 @@ import java.util.Objects;
 
 public class WordPattern {
 
+    public void test (String pattern, String s){
+
+        String[] newarr = s.split(" ");
+        HashMap<Character, String> map = new HashMap<>();
+        for(int i = 0 ; i < pattern.length(); i++){
+            map.put(pattern.charAt(i), newarr[i]);
+        }
+        System.out.println(map);
+        System.out.println(!map.containsValue("dg"));
+    }
+
     public boolean solution(String pattern, String s){
         String[] newarr = s.split(" ");
         HashMap<Character, String> map = new HashMap<>();
@@ -26,5 +37,5 @@ public class WordPattern {
         // }
         return true;
     }
-    
+
 }

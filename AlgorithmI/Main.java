@@ -10,7 +10,7 @@ public class Main {
     WordPattern test = new WordPattern();
 
 
-    System.out.println(test.solution("aaaa", "dog cat cat fish")); 
+    test.test("abba", "dog cat cat dog");
     // test.solution("abba", "dog cat cat dog"); 
    }
 
