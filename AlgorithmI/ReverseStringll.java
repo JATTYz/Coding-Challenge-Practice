@@ -10,9 +10,8 @@ class ReverseStringll{
         String same = s.substring(k, s.length());
 
        a.append(r).reverse(); 
-
        a.append(same);
-
-        return a.toString();
+       //not finish yet => still error
+       return a.toString();
     }
 }
