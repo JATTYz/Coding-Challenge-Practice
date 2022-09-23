@@ -14,5 +14,8 @@ public class smallIndex {
         }
 
         return -1;
+
+        //time = O(n)
+        //space = O(1)
     }
 }
