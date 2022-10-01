@@ -11,9 +11,10 @@ import AlgorithmI.SlidingWindow.Permutation;
 
 public class Main {
    public static void main(String[] args) {
-      SubandSum a = new SubandSum();
+      LargestTriangle a = new LargestTriangle();
       // int s =a.solution(234);
-      int b = a.solution(234);
+      int[] x = {2,1,2};
+      int b = a.solution(x);
       System.out.println(b);
       // HashMap<Integer, Integer> arr = new HashMap<>();
       // HashSet<Integer> a = new HashSet<>();
