@@ -1,32 +1,28 @@
 package AlgorithmI;
 
-import java.util.Arrays;
 
 public class sortByParity {
     
     public int[] Firsttry(int[] nums){
-       
-        Arrays.sort(nums);
+        
+        int left = 0;
+        int right = nums.length-1;
 
-        for(int i = 0; i < nums.length; i++){
+        while(left < right){
 
-            if(nums[i+1] % 2 == 0){
-                int temp = nums[i+1];
-                nums[i+1] = nums[i];
-                nums[i] = temp;
+        if(nums[left] % 2 == 1){
+            if(nums[right] % 2 == 0){
+                int temp = nums[left];
+                nums[left] = nums[right];
+                nums[right] = temp;
+            }else{
+                right--;
             }
-            
-            if(i == nums.length - 2){
-                int temp = nums[i+1];
-                nums[i+1] = nums[i];
-                nums[i] = temp;
-                break;
-            }
-
+        }else{
+            left++;
         }
-
-        return nums;
-
     }
+    return nums;
 
+}
 }
